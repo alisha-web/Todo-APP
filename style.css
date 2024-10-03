@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    min-height: 95vh;
+    background-color: yellow;
+}
+
+.container {
+    margin: 0 20px;
+}
+
+.appTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.inputSection {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.todoInput {
+    flex: 1;
+    padding: 10px 15px;
+}
+
+.addTaskBtn {
+    background-color: green;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.separator {
+    margin: 20px 0;
+}
+
+.taskList {
+    gap: 10px;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.taskText {
+    flex: 1;
+}
+
+.editTaskBtn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.deleteTaskBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.deleteAllSection {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.clearAllBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
